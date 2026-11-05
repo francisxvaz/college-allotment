@@ -86,7 +86,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>College Allotment Results</h1>
+      <h1>Ashley Vaz College Allotment Results</h1>
 
       <div className="toolbar">
         <input
