@@ -34,7 +34,7 @@ function App() {
         setData(
           result.data.map((row) => ({
             ...row,
-            "SL.NO": Number(row["SL.NO"]),
+            "SL": Number(row["SL"]),
             "All India Rank": Number(row["All India Rank"]),
             "Course Fees": Number(row["Course Fees"]),
           }))
@@ -49,7 +49,7 @@ function App() {
   }, []);
 
   const columns = [
-    { accessorKey: "SL.NO", header: "SL.NO" },
+    { accessorKey: "SL", header: "SL" },
     { accessorKey: "All India Rank", header: "All India Rank" },
     { accessorKey: "Course Code", header: "Course Code" },
     {
